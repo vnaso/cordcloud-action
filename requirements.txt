@@ -1,4 +1,5 @@
 actions-toolkit
 pyotp
 requests
+lxml
 DrissionPage
