@@ -33,4 +33,4 @@ COPY --from=builder /app /app
 ENV PATH="/opt/venv/bin:$PATH"
 WORKDIR /app
 
-CMD ["python", "main.py"]
+CMD ["python", "/app/main.py"]
