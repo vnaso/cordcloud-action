@@ -24,8 +24,6 @@ FROM python:3.12-slim
 RUN apt-get update && apt-get install -y \
     libxml2 \
     libxslt1.1 \
-    libffi7 \
-    libssl1.1 \
     chromium \
     && apt-get clean
 
